@@ -1,0 +1,177 @@
+
+@font-face {
+  font-family: "ariel";
+  font-weight: normal;
+  font-style: normal;
+}
+
+.nav-text{
+  font-size: 4rem;
+  font-weight: 100;
+  color: rgb(8, 230, 8);
+  text-decoration: none;
+}
+
+.logo {
+  width: 130px;
+  height: 70px;
+  border-radius: 15%;
+  background-color: rgb(0, 0, 0);
+}
+
+
+
+.App{
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background:black;
+    color: whitesmoke;
+}
+
+nav ul{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.main-page{
+    width: 100%;
+  }
+  
+  
+  .filter-main{
+    display: flex;
+    min-height: 8vh;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+    background-color: white;
+    flex: 1;
+  }
+
+  .filter-main input{
+    width: auto;
+  }
+
+  .search-bar{
+    height: 70px;
+  }
+  
+  .store-display{
+    display: flex;
+    height: auto;
+    background-color: white;
+    flex: 5;
+  }
+  
+  .store-display-inner{
+    display: flex;
+    margin: auto;
+    padding-top: 20px;
+    width: 70%;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .store-display-item{
+    display: flex;
+    height: 400px;
+    width: 20% ;
+    margin: 10px 30px 50px 30px;
+    background-color: whitesmoke;
+    color: black;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
+    border-radius: 5%;
+    padding-top: 30px;
+    
+  }
+
+  .store-display-item-img{
+    border-radius: 8% ;
+  }
+  
+  .store-display-item ul{
+    list-style: none;
+    text-align: left;
+    width: 100%;
+  }
+  
+  .store-display-item ul .name{
+    font-size: 1.8rem;
+    
+  }
+  
+  .store-display-item button{
+    height: 50px;
+    width: 100px;
+    margin-bottom: 10px;
+  }
+
+  .cart{
+    display: flex;
+  }
+
+  .cart-items{
+    display: flex;
+    width: 30%;
+  }
+
+  .cart-items-img{
+    border-radius: 50%;
+    height: 80px;
+  }
+  
+
+  .cart ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 50px;
+  }
+
+  .cart span{
+    align-self: center;
+  }
+
+  .four{
+    width: 60%;
+  }
+  .total{
+    width: 60%;
+  }
+
+  .cart-checkout{
+    font-size: 1.4rem;
+  }
+
+  .totalCheckout{
+    font-size: 1.8rem;
+  }
+
+  .checkoutButton
+  {
+    font-size: 1.7rem;    
+    background-color: green;
+    border-radius: 10px;
+  }
+
+  .addToCart{
+    font-size: 1rem;
+    
+    background-color: green;
+    border-radius: 10px;
+  }

@@ -9,7 +9,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 function App() {
   const [products, setProducts] = useState(inventory.products)
-  // const [cartItems, setCartItems] = useState([])
+ const [cartItems, setCartItems] = useState([])
   const [search, setSearch] = useState('')
     
 
@@ -27,12 +27,8 @@ function App() {
               setProducts={setProducts} 
               cartItems={cartItems}
               setCartItems={setCartItems}
-              cartTotal={cartTotal}
-              setCartTotal={setCartTotal}
               search={search}
               setSearch={setSearch}
-              count={count}
-              setCount={setCount}
               />
           )}/> 
           <Route exact path="/Store" render = {() => (
@@ -41,20 +37,20 @@ function App() {
               setProducts={setProducts} 
               cartItems={cartItems}
               setCartItems={setCartItems}
-              cartTotal={cartTotal}
-              setCartTotal={setCartTotal}
+              // cartTotal={cartTotal}
+              // setCartTotal={setCartTotal}
               search={search}
               setSearch={setSearch}
-              count={count}
-              setCount={setCount}
+              // count={count}
+              // setCount={setCount}
               />
           )}/> 
           <Route exact path="/Cart" render = {() => (
               <Cart 
               cartItems={cartItems}
               setCartItems={setCartItems}
-              count={count}
-              setCount={setCount}
+              // count={count}
+              // setCount={setCount}
               />
           )}/> 
         

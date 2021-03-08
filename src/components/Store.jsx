@@ -2,7 +2,7 @@ import React from 'react'
 import Filter from './Search'
 import StoreDisplay from './StoreDisplay'
 
-function Store({products, setProducts, cartItems, setCartItems, cartTotal, setCartTotal, search, setSearch, count, setCount}) {
+function Store({products, setProducts, cartItems, setCartItems, cartTotal, setCartTotal, search, setSearch, count, /*setCount*/}) {
 
     return (
         <div className="main-page">
@@ -19,7 +19,7 @@ function Store({products, setProducts, cartItems, setCartItems, cartTotal, setCa
             setCartTotal={setCartTotal}
             search={search}
             count={count}
-            setCount={setCount}
+            // setCount={setCount}
             />
         </div>
     );

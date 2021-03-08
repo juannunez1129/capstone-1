@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Cart({cartItems, setCartItems,count, setCount}) {
+function Cart({cartItems, setCartItems,count}) {
 
     return (
       <div>
@@ -30,7 +30,7 @@ function Cart({cartItems, setCartItems,count, setCount}) {
           <button className="checkoutButton"
           onClick={() => {
             setCartItems([])
-            setCount(0)
+            // setCount(0)
             alert("Thank you for your purchase")
           }}
           

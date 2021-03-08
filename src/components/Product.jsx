@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-function product({products, cartItems, setCartItems, count, setCount}) 
+function product({products, cartItems, setCartItems, count, /*setCount*/ }) 
 {
     return (
         <div className='store-display-item'>
@@ -19,7 +19,7 @@ function product({products, cartItems, setCartItems, count, setCount})
                 setCartItems(cartItems.concat(products))
                 console.log(cartItems)
 
-                setCount(count + parseFloat(products.price))
+                // setCount(count + parseFloat(products.price))
 
             }}>
             

@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import Product from './Product'
 
-const Search = ({products, setProducts, cartItems, setCartItems, cartTotal, setCartTotal, search, count, setCount}) => {
+const Search = ({products, setProducts, cartItems, setCartItems, cartTotal, setCartTotal, search, count, /*setCount*/}) => {
 
 let searchResult = products.filter(function(product){
 
@@ -23,7 +23,7 @@ let searchResult = products.filter(function(product){
             cartItems={cartItems}
             setCartItems={setCartItems}
             count={count}
-            setCount={setCount}
+            // setCount={setCount}
             />
       ))}           
                 </div>

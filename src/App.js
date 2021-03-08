@@ -37,12 +37,9 @@ function App() {
               setProducts={setProducts} 
               cartItems={cartItems}
               setCartItems={setCartItems}
-              // cartTotal={cartTotal}
-              // setCartTotal={setCartTotal}
               search={search}
               setSearch={setSearch}
-              // count={count}
-              // setCount={setCount}
+            
               />
           )}/> 
           <Route exact path="/Cart" render = {() => (

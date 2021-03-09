@@ -1,0 +1,123 @@
+{
+  "products" : 
+  [
+    {
+      "id": 0,
+      "name": "Shimano Aldebaran MGL 50",
+      "make": "Shimano",
+      "tag": " Bait Casting",
+      "image": "/images/Aldebaran.jpg",
+      "serial": "Shi01",
+      "price": "420.00"
+    },
+    {
+      "id": 1,
+      "name": "Shimano Curado DC",
+      "make": "Shimano",
+      "tag": "Bait Casting",
+      "image": "/images/Curado.jpg",
+      "serial": "Shi02",
+      "price": "250.00"
+    },
+    {
+      "id": 2,
+      "name": "Shimano Chronarch MGL",
+      "make": "Shimano",
+      "tag": "Bait Casting",
+      "image": "/images/Chronarch.jpeg",
+      "serial": "Shi03",
+      "price": "280.00"
+      },
+      {
+        "id": 3,
+        "name": "Shimano Stradic",
+        "make": "Shimano",
+        "tag": "Spinning",
+        "image": "/images/Stradic.jpeg",
+        "serial": "Shi04",
+        "price": "200.00"
+      },
+      {
+        "id": 4,
+        "name": "Shimano Stella FJ",
+        "make": "Shimano",
+        "tag": "Spinning",
+        "image": "/images/Stella.png",
+        "serial": "Shi05",
+        "price": "750.00"
+      },
+      {
+        "id": 5,
+        "name": "Lew's Mach 2",
+        "make": "Lews",
+        "tag": "Spinning",
+        "image": "/images/Mach2.jpeg",
+        "serial": "lew01",
+        "price": "150.00"
+      },
+      {
+        "id": 6,
+        "name": "Lew's Custom Inshore",
+        "make": "Lews",
+        "tag": "Spinning",
+        "image": "/images/Custom.jpeg",
+        "serial": "Lew02",
+        "price": "148.00"
+      },
+      {
+        "id": 7,
+        "name": "Abu Garcia Revo MGX",
+        "make": "Abu Garcia",
+        "tag": "Bait Casting",
+        "image": "/images/Revo.jpeg",
+        "serial": "abu01",
+        "price": "350.00"
+      },
+      {
+        "id": 8,
+        "name": "Abu Garcia Revo IKE",
+        "make": "Abu Garcia",
+        "tag": "Spinning",
+        "image": "/images/ike.jpeg",
+        "serial": "abu02",
+        "price": "250.00"
+      },
+      {
+        "id": 9,
+        "name": "PENN Squall",
+        "make": "PENN",
+        "tag": "Bait Casting",
+        "image": "/images/Squall.jpeg",
+        "serial": "Penn01",
+        "price": "160.00"
+      },
+      {
+        "id": 10,
+        "name": "Daiwa Fuego CT",
+        "make": "Daiwa",
+        "tag": "Bait Casting",
+        "image": "/images/Fuego.jpeg",
+        "serial": "Dai0",
+        "price": "110.00"
+      },
+      {
+        "id": 11,
+        "name": "Daiwa CA 80",
+        "make": "Daiwa",
+        "tag": "Bait Casting",
+        "image": "/images/Ca80.jpeg",
+        "serial": "Dai0",
+        "price": "80.00"
+      },
+      {
+        "id": 12,
+        "name": "Daiwa Coastal 200HS",
+        "make": "Daiwa",
+        "tag": "Bait Casting",
+        "image": "/images/Coastal.jpeg",
+        "serial": "Dai0",
+        "price": "250.00"
+      }
+
+  ]
+}
